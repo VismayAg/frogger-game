@@ -3,6 +3,7 @@
   font-family: cursive;
   letter-spacing: 1px;
 }
+
 #start-pause-button {
   margin-bottom: 2rem;
   padding: 0.6em 2em;
@@ -40,9 +41,11 @@
   0% {
     background-position: 0 0;
   }
+
   50% {
     background-position: 400% 0;
   }
+
   100% {
     background-position: 0 0;
   }
@@ -59,6 +62,7 @@
   top: 0;
   border-radius: 10px;
 }
+
 .grid {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 0.5rem;
@@ -94,7 +98,7 @@
 }
 
 .frog {
-  background-image: url('/frog.png');
+  background-image: url('./frog.png');
   background-size: cover;
 }
 
@@ -107,14 +111,15 @@
 
 .l4,
 .l5 {
-  background-image: url('/wood.png');
+  background-image: url('./wood.png');
   background-size: cover;
 }
 
 .c1 {
-  background-image: url('/vehicle.png');
+  background-image: url('./vehicle.png');
   background-size: cover;
 }
+
 .c2,
 .c3 {
   background-color: lightgray !important;
